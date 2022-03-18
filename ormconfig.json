@@ -1,0 +1,17 @@
+{
+  "type": "mysql",
+  "host": "sql11.freesqldatabase.com",
+  "port": 3306,
+  "username": "sql11479588",
+  "database": "sql11479588",
+  "password" : "rv1HMTm4vJ",
+  "entities": ["dist/**/*.entity.js"],
+  "migrationsTableName": "custom_migration_table",
+  "synchronize": false,
+  "migrations": [
+    "src/migration/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/migration"
+  }
+}
