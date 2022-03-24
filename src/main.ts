@@ -34,8 +34,8 @@ async function bootstrap() {
   passport.use(
     new GoogleStrategy(
       {
-        clientID: '263071930874-r6glmhk96nfm94c9trtc7q0dh4v5h2g8.apps.googleusercontent.com', //YOUR GOOGLE_CLIENT_ID
-        clientSecret: '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', //YOUR GOOGLE_CLIENT_SECRET
+        clientID: '66787984352-7natlf8u3q0bo0u3r6pl6n3i1dgimk62.apps.googleusercontent.com', //YOUR GOOGLE_CLIENT_ID
+        clientSecret: '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', //YOUR GOOGLE_CLIENT_SECRET
         callbackURL:
           'http://localhost:2222/auth/google/callback',
       },
