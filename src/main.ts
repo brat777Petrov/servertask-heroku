@@ -37,7 +37,7 @@ async function bootstrap() {
         clientID: '66787984352-7natlf8u3q0bo0u3r6pl6n3i1dgimk62.apps.googleusercontent.com', //YOUR GOOGLE_CLIENT_ID
         clientSecret: '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', //YOUR GOOGLE_CLIENT_SECRET
         callbackURL:
-          'http://localhost:2222/auth/google/callback',
+          'https://vinil-service.herokuapp.com/auth/google/callback',
       },
       (accessToken, refreshToken, profile, done) => {
         return done(null, profile)
