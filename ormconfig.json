@@ -1,6 +1,6 @@
 {
   "type": "mysql",
-  "host": "sql11.freesqldatabase.com",
+  "host": "db4free.net",
   "port": 3306,
   "username": "sql11479588",
   "database": "sql11479588",
